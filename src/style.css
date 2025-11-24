@@ -20,19 +20,19 @@ body {
   box-sizing: border-box;
 }
 
-.nav_logo {
+.header__logo {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-.nav_img {
+.header__img {
   width: 40px;
   height: 40px;
   display: block;
 }
 
-.nav_header {
+.nav__header {
   display: flex;
   text-align: center;
 }
@@ -49,7 +49,7 @@ body {
   padding: 0;
 }
 
-.nav_list {
+.nav__list {
   display: flex;
   align-items: center;
   list-style: none;
@@ -57,11 +57,11 @@ body {
   padding: 0;
 }
 
-.nav_item {
+.nav__item {
   margin-right: 20px;
 }
 
-.nav_item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
@@ -83,10 +83,4 @@ body {
   bottom: 0;
   left: 0;
   border-radius: 8px;
-}
-
-@media (max-width: 1024px) {
-  .nav_item {
-    margin-right: 20px;
-  }
 }
